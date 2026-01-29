@@ -9,27 +9,27 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=1600 height=1050 tabindex="-1"></canvas>
       <!-- PANEL SKETCHFAB -->
-       <div id="sketchfab-panel" style="
-         position: absolute;
-         right: 20px;
-         top: 250px;
-         width: 600px;
-         height: 600px;
-         background: #111;
-         border-radius: 8px;
-         overflow: hidden;
-         z-index: 10;
-         ">
-         <iframe
-         src="https://sketchfab.com/models/a1a3f706b75f4ab7aa26eadf4a6e00cc/embed?autostart=1&ui_infos=0"
-         style="width:100%; height:100%; border:none;"
-         allow="autoplay; fullscreen; xr-spatial-tracking"
-         allowfullscreen>
-         </iframe>
-        </div>
+      <div id="sketchfab-panel" style="
+        position: absolute;
+        right: 20px;
+        top: 250px;
+        width: 650px;
+        height: 650px;
+        background: #111;
+        border-radius: 8px;
+        overflow: hidden;
+        z-index: 10;
+      ">
+        <iframe
+          src="https://sketchfab.com/models/a1a3f706b75f4ab7aa26eadf4a6e00cc/embed?autostart=1&ui_infos=0"
+          style="width:100%; height:100%; border:none;"
+          allow="autoplay; fullscreen; xr-spatial-tracking"
+          allowfullscreen>
+        </iframe>
+      </div>
 
+      <canvas id="unity-canvas" width=1600 height=1050 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
